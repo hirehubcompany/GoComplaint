@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "295368172217",
+    "project_id": "goilcomplaint",
+    "storage_bucket": "goilcomplaint.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295368172217:android:5d470bf9f63f6262c73168",
+        "android_client_info": {
+          "package_name": "com.ggcomplaintts.gocomplaints"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnm57JkEuJh8nloqYPY_4sHf6gyIkaH_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
