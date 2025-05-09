@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:gocomplaints/screens/homepage/complaintant/profile/homepage.dart';
 
+import 'my complaints/complaint form/homepage.dart';
+
+
+
 class ComplainantDashboard extends StatefulWidget {
   const ComplainantDashboard({super.key});
 
@@ -12,7 +16,7 @@ class _ComplainantDashboardState extends State<ComplainantDashboard> {
   int _currentIndex = 0;
 
   final List<Widget> _pages = [
-    Center(child: Text("Home", style: TextStyle(fontSize: 22))),
+    ComplaintsPage(), //Center(child: Text("Homeee", style: TextStyle(fontSize: 22))),
     Center(child: Text("My Complaints", style: TextStyle(fontSize: 22))),
     Center(child: Text("Notifications", style: TextStyle(fontSize: 22))),
     ComplainantProfileHomepage()
